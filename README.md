@@ -21,7 +21,7 @@ This module creates a virtual machine on Magalu Cloud and runs an Easypanel cont
 
 ```hcl
 module "easypanel_vm" {
-  source           = "../mgc-module-easypanel"
+  source           = "lfpicoloto1/easypanel/mgc"
   vm_name          = "my-vm-easypanel"
   ssh_key_name     = "my-ssh-key"
   private_key_path = "~/.ssh/id_rsa"
